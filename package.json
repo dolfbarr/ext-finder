@@ -1,0 +1,41 @@
+{
+  "name": "ext-finder",
+  "version": "0.0.1",
+  "description": "Finds an extension of file",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlf42/ext-finder.git"
+  },
+  "keywords": [
+    "extension",
+    "nodejs",
+    "javascript",
+    "cli"
+  ],
+  "author": "dlf42",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dlf42/ext-finder/issues"
+  },
+  "homepage": "https://github.com/dlf42/ext-finder#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "mime-types": "^2.1.15",
+    "semver": "^5.3.0",
+    "yargs": "^7.0.2"
+  }
+}
