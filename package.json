@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel lib -d build",
+    "prepublish": "npm run build",
     "start": "node build/index.js",
     "test": "mocha --compilers babel-core/register test"
   },
