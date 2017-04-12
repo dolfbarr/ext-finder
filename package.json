@@ -1,6 +1,6 @@
 {
   "name": "ext-finder",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Finds an extension of file",
   "main": "lib/index.js",
   "scripts": {
