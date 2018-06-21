@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dlf42/ext-finder.git"
+    "url": "git+https://github.com/dolfbarr/ext-finder.git"
   },
   "keywords": [
     "extension",
@@ -22,12 +22,12 @@
     "lib",
     "cli"
   ],
-  "author": "dlf42",
+  "author": "dolfbarr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dlf42/ext-finder/issues"
+    "url": "https://github.com/dolfbarr/ext-finder/issues"
   },
-  "homepage": "https://github.com/dlf42/ext-finder#readme",
+  "homepage": "https://github.com/dolfbarr/ext-finder#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
