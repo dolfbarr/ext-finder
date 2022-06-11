@@ -1,4 +1,4 @@
-# ext-finder 
+# ext-finder
 [![npm version](https://badge.fury.io/js/ext-finder.svg)](https://badge.fury.io/js/ext-finder) [![code style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://standardjs.com/) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/dlf42/ext-finder/master/LICENSE)
 
 Finds an extension of given filenames
@@ -33,7 +33,7 @@ Examples:
 ```javascript
 import extFinder from 'ext-finder'
 
-// use 
+// use
 
 let extension = extfinder.getExtension("file.txt")
 // 'txt'
@@ -43,6 +43,6 @@ let allExtensions = extFinder.(['file1.txt', 'file2.js', 'file3'])
 ```
 
 # License
-Copyright (c) 2017 dlf42
+Copyright (c) 2017 dolfbarr
 
 Licensed under the [MIT](LICENSE) license
