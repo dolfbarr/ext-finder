@@ -7,7 +7,8 @@
     "build": "babel lib -d build",
     "prepublish": "npm run build",
     "start": "node build/index.js",
-    "test": "mocha  --require @babel/register test"
+    "test": "npm run lint && mocha  --require @babel/register test",
+    "lint": "eslint ./lib ./test"
   },
   "bin": {
     "ext-finder": "bin/ext-finder"
@@ -51,12 +52,12 @@
     "@babel/register": "^7.17.7",
     "babel-eslint": "^9.0.0",
     "chai": "^3.5.0",
-    "eslint": "^3.19.0",
-    "eslint-config-standard": "^10.2.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-node": "^4.2.2",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
+    "eslint": "^8.18.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^5.0.0",
     "mocha": "^10.0.0"
   },
   "dependencies": {
